@@ -19,7 +19,7 @@
 $(call project-set-path-variant,ril,TARGET_RIL_VARIANT,hardware/ril)
 
 # Rules for MTK targets
-include $(TOPDIR)vendor/reloaded/build/core/mtk_target.mk
+include $(TOPDIR)vendor/future/build/core/mtk_target.mk
 
 # Rules for QCOM targets
-include $(TOPDIR)vendor/reloaded/build/core/qcom_target.mk
+include $(TOPDIR)vendor/future/build/core/qcom_target.mk
