@@ -42,6 +42,6 @@ echo -e " Build completed successfully. ";
 echo -e "";
 
 tput setaf 1
-echo -e " 〉Enjoy the PixelDust Goodness! // ";
+echo -e " 〉Enjoy the FutureOS Goodness! // ";
 tput sgr0
 echo -e "";
