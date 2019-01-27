@@ -3,5 +3,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/reloaded/sepolicy/qcom/common \
-    vendor/reloaded/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    vendor/future/sepolicy/qcom/common \
+    vendor/future/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)

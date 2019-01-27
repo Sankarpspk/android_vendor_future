@@ -3,10 +3,10 @@
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    vendor/reloaded/sepolicy/common/public
+    vendor/future/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    vendor/reloaded/sepolicy/common/private
+    vendor/future/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/reloaded/sepolicy/common/vendor
+    vendor/future/sepolicy/common/vendor
