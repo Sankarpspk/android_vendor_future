@@ -8,7 +8,7 @@ include vendor/future/config/bootanimation.mk
 include vendor/future/config/BoardConfigKernel.mk
 
 # Future-OS BoardConfigSoong
-include vendor/future/config/BoardConfigSoong.mk
+#include vendor/future/config/BoardConfigSoong.mk
 
 include vendor/future/config/telephony.mk
 
@@ -33,6 +33,3 @@ ifeq ($(WITH_FUTURE_CHARGER),true)
     BOARD_HAL_STATIC_LIBRARIES := libhealthd.future
 endif
 
-ifeq ($(BOARD_USES_QTI_HARDWARE),true)
-include vendor/future/config/BoardConfigQcom.mk
-endif
